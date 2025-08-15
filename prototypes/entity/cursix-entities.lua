@@ -25,7 +25,7 @@ data:extend(
           percent = 40
         }
       },
-      allowed_effects = { "speed", "productivity", "consumption", "pollution" },
+      allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
 
       base_picture = {
         layers = {
