@@ -10,48 +10,49 @@ data:extend({
         type = "unlock-recipe",
         recipe = "cursix-armor"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-barrier-jacket-equipment"
-      },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-barrier-jacket-equipment"
+      -- },
       {
         type = "unlock-recipe",
         recipe = "cursix-energy-storage-crystal-equipment"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-scrambled-eggs-equipment"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-speed-shoes-equipment"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-mushroom"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "cursix-1up-mushroom"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "cursix-poison-mushroom"
-      },
-    {
-        type = "unlock-recipe",
-        recipe = "cursix-beacon"
-      },
-    {   type = "unlock-recipe",
-        recipe = "cursix-axel-shooter-equipment"
-      }
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-scrambled-eggs-equipment"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-speed-shoes-equipment"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-mushroom"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-1up-mushroom"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-poison-mushroom"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-beacon"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-axel-shooter-equipment"
+      -- }
     },
     unit =
     {
       count = 3,
       ingredients =
       {
-        {"automation-science-pack", 1}
+        { "automation-science-pack", 1 }
       },
       time = 5
     },
@@ -69,13 +70,13 @@ data:extend({
         modifier = 15
       }
     },
-    prerequisites = {"cursix-technology"},
+    prerequisites = { "cursix-technology" },
     unit =
     {
       count = 6,
       ingredients =
       {
-        {"automation-science-pack", 1}
+        { "automation-science-pack", 1 }
       },
       time = 10
     },
@@ -92,16 +93,16 @@ data:extend({
         modifier = 0.10
       }
     },
-    prerequisites = {"robotics", "cursix-technology"},
+    prerequisites = { "robotics", "cursix-technology" },
     unit =
     {
       count = 100,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1}
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack",   1 },
+        { "chemical-science-pack",   1 },
+        { "production-science-pack", 1 }
       },
       time = 60
     },
@@ -128,11 +129,11 @@ data:extend({
       count = 200,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-        {"utility-science-pack", 1}
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack",   1 },
+        { "chemical-science-pack",   1 },
+        { "production-science-pack", 1 },
+        { "utility-science-pack",    1 }
       },
       time = 60
     },
@@ -151,18 +152,18 @@ data:extend({
         modifier = 0.25
       }
     },
-    prerequisites = {"cursix-worker-robots-battery-2", "space-science-pack"},
+    prerequisites = { "cursix-worker-robots-battery-2", "space-science-pack" },
     unit =
     {
       count_formula = "2^(L-3)*1000",
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-        {"utility-science-pack", 1},
-        {"space-science-pack", 1}
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack",   1 },
+        { "chemical-science-pack",   1 },
+        { "production-science-pack", 1 },
+        { "utility-science-pack",    1 },
+        { "space-science-pack",      1 }
       },
       time = 60
     },
@@ -175,54 +176,54 @@ data:extend({
     name = "cursix-technology-2",
     icon = "__cursix-tech__/graphics/technology/cursix-technology-2.png",
     icon_size = 128,
-    localised_description = {"technology-description.cursix-technology-2"},
+    localised_description = { "technology-description.cursix-technology-2" },
     effects =
     {
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-barrier-jacket-mk2-equipment"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-akane-eggs-equipment"
-      }
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-barrier-jacket-mk2-equipment"
+      -- },
+      -- {
+      --   type = "unlock-recipe",
+      --   recipe = "cursix-akane-eggs-equipment"
+      -- }
     },
-    prerequisites = {"cursix-technology", "space-science-pack"},
+    prerequisites = { "cursix-technology", "space-science-pack" },
     unit =
     {
       count = 666,
       ingredients =
       {
-        {"space-science-pack", 1}
+        { "space-science-pack", 1 }
       },
       time = 10
     },
     order = "a-d-f"
   },
-  {
-    type = "technology",
-    name = "cursix-moogle-roboport-equipment",
-    icon_size = 128,
-    icon = "__cursix-tech__/graphics/technology/cursix-moogle-roboport-equipment.png",
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "cursix-moogle-roboport-equipment"
-      }
-    },
-    prerequisites = {"cursix-technology", "personal-roboport-equipment"},
-    unit =
-    {
-      count = 60,
-      ingredients =
-      {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1}
-      },
-      time = 10
-    },
-    order = "c-k-d-zzz"
-  }
+  -- {
+  --   type = "technology",
+  --   name = "cursix-moogle-roboport-equipment",
+  --   icon_size = 128,
+  --   icon = "__cursix-tech__/graphics/technology/cursix-moogle-roboport-equipment.png",
+  --   effects =
+  --   {
+  --     {
+  --       type = "unlock-recipe",
+  --       recipe = "cursix-moogle-roboport-equipment"
+  --     }
+  --   },
+  --   prerequisites = { "cursix-technology", "personal-roboport-equipment" },
+  --   unit =
+  --   {
+  --     count = 60,
+  --     ingredients =
+  --     {
+  --       { "automation-science-pack", 1 },
+  --       { "logistic-science-pack",   1 },
+  --       { "chemical-science-pack",   1 }
+  --     },
+  --     time = 10
+  --   },
+  --   order = "c-k-d-zzz"
+  -- }
 })
