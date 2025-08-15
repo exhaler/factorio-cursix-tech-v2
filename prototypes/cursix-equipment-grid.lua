@@ -2,9 +2,9 @@ data:extend(
   {
     {
       type = "equipment-grid",
-      name = "cursix-equipment-grid-12",
-      width = 12,
-      height = 12,
+      name = "cursix-equipment-grid-20",
+      width = 20,
+      height = 20,
       equipment_categories = { "armor" }
     }
   }

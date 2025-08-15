@@ -57,7 +57,7 @@ data:extend(
       drop_sound = item_sounds.armor_large_inventory_move,
       stack_size = 1,
       infinite = true,
-      equipment_grid = "cursix-equipment-grid-12",
+      equipment_grid = "cursix-equipment-grid-20",
       inventory_size_bonus = 90,
       open_sound = "__base__/sound/armor-open.ogg",
       close_sound = "__base__/sound/armor-close.ogg",
