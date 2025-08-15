@@ -26,7 +26,7 @@ data:extend(
         { type = "item", name = "steel-plate",                             amount = 10 },
         { type = "item", name = "cursix-energy-storage-crystal-equipment", amount = 2 },
         { type = "item", name = "processing-unit",                         amount = 1 },
-        { type = "item", name = "raw-fish",                                amount = 50 },
+        -- { type = "item", name = "raw-fish",                                amount = 50 },
       },
       results = {
         { type = "item", name = "cursix-barrier-jacket-mk2-equipment", amount = 1 },
@@ -54,9 +54,9 @@ data:extend(
       energy_required = 30,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "stone",    amount = 10 },
+        { type = "item", name = "iron-ore", amount = 10 },
+        { type = "item", name = "wood",     amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-scrambled-eggs-equipment", amount = 1 },
@@ -69,9 +69,10 @@ data:extend(
       energy_required = 60,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "cursix-scrambled-eggs-equipment", amount = 4 },
+        { type = "item", name = "uranium-238",                     amount = 60 },
+        { type = "item", name = "stone-brick",                     amount = 4 },
+        { type = "item", name = "wood",                            amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-akane-eggs-equipment", amount = 1 },
@@ -84,9 +85,9 @@ data:extend(
       energy_required = 5,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "coal",            amount = 10 },
+        { type = "item", name = "iron-gear-wheel", amount = 50 },
+        { type = "item", name = "wood",            amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-speed-shoes-equipment", amount = 1 },
@@ -99,9 +100,9 @@ data:extend(
       energy_required = 10,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "electronic-circuit",                      amount = 10 },
+        { type = "item", name = "cursix-energy-storage-crystal-equipment", amount = 1 },
+        { type = "item", name = "wood",                                    amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-axel-shooter-equipment", amount = 1 },
@@ -114,9 +115,11 @@ data:extend(
       energy_required = 10,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "personal-roboport-equipment",             amount = 1 },
+        { type = "item", name = "cursix-energy-storage-crystal-equipment", amount = 1 },
+        { type = "item", name = "cursix-axel-shooter-equipment",           amount = 1 },
+        { type = "item", name = "coal",                                    amount = 10 },
+        { type = "item", name = "plastic-bar",                             amount = 10 },
       },
       results = {
         { type = "item", name = "cursix-moogle-roboport-equipment", amount = 1 },
