@@ -56,7 +56,7 @@ data:extend(
       placed_as_equipment_result = "cursix-energy-storage-crystal-equipment",
       subgroup = "equipment",
       order = "c[battery]-b[cursix-energy-storage-crystal-equipment]",
-      stack_size = 100,
+      stack_size = 500,
       default_request_amount = 10,
       weight = 1 * tons,
     },
