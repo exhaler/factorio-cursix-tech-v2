@@ -159,7 +159,7 @@ data:extend(
         usage_priority = "secondary-input"
       },
       energy_consumption = "5.5MW",
-      movement_bonus = 0.25,
+      movement_bonus = 0.40,
       categories = cursix_equipment_categories
     },
     {
