@@ -99,10 +99,10 @@ data:extend(
       },
       energy_usage = "50kW",
       distribution_effectivity = 1.0,
-      module_slots = 2,
+      module_slots = 3,
       module_specification =
       {
-        module_slots = 2,
+        module_slots = 3,
         module_info_icon_shift = { 0, 0 },
         module_info_multi_row_initial_height_modifier = 1.0,
         module_info_max_icons_per_row = 2
