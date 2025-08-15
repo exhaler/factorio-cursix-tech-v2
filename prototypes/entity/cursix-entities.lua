@@ -96,8 +96,6 @@ data:extend(
         },
         audible_distance_modifier = 0.33,
         max_sounds_per_type = 3
-        -- fade_in_ticks = 4,
-        -- fade_out_ticks = 60
       },
       energy_usage = "50kW",
       distribution_effectivity = 1.0,

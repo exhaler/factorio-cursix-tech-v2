@@ -27,8 +27,8 @@ data:extend(
       inventory_move_sound = item_sounds.reactor_inventory_move,
       pick_sound = item_sounds.reactor_inventory_pickup,
       drop_sound = item_sounds.reactor_inventory_move,
-      stack_size = 1,
-      weight = 1 * tons,
+      stack_size = 10,
+      weight = 500 * kg
     },
     {
       type = "item",

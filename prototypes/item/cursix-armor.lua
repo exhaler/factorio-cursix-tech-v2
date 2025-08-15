@@ -58,7 +58,7 @@ data:extend(
       stack_size = 1,
       infinite = true,
       equipment_grid = "cursix-equipment-grid-12",
-      inventory_size_bonus = 60,
+      inventory_size_bonus = 90,
       open_sound = "__base__/sound/armor-open.ogg",
       close_sound = "__base__/sound/armor-close.ogg",
       weight = 1 * tons

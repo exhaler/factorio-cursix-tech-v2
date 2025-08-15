@@ -11,7 +11,6 @@ data:extend(
       tier = 3,
       order = "d[speed]-a[cursix-mushroom]",
       stack_size = 500,
-      default_request_amount = 500,
       effect =
       {
         speed = 1.00,
@@ -30,7 +29,6 @@ data:extend(
       tier = 3,
       order = "e[productivity]-a[cursix-1up-mushroom]",
       stack_size = 500,
-      default_request_amount = 500,
       effect =
       {
         productivity = 1.00,
@@ -47,7 +45,6 @@ data:extend(
       tier = 3,
       order = "f[speed]-a[cursix-poison-mushroom]",
       stack_size = 500,
-      default_request_amount = 500,
       effect =
       {
         speed = -0.20,
