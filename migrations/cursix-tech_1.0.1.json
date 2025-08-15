@@ -1,0 +1,23 @@
+{
+  "equipment":
+  [
+    [ "sonic-scrambled-eggs-equipment", "cursix-scrambled-eggs-equipment" ],
+    [ "barrier-jacket-shield-equipment", "cursix-barrier-jacket-equipment" ],
+    [ "energy-storage-crystal-equipment", "cursix-energy-storage-crystal-equipment" ],
+    [ "sonic-speed-shoes-equipment", "cursix-speed-shoes-equipment" ]
+  ],
+  "item":
+  [
+    [ "sonic-scrambled-eggs-equipment", "cursix-scrambled-eggs-equipment" ],
+    [ "barrier-jacket-shield-equipment", "cursix-barrier-jacket-equipment" ],
+    [ "energy-storage-crystal-equipment", "cursix-energy-storage-crystal-equipment" ],
+    [ "sonic-speed-shoes-equipment", "cursix-speed-shoes-equipment" ]
+  ],
+  "recipe":
+  [
+    [ "sonic-scrambled-eggs-equipment", "cursix-scrambled-eggs-equipment" ],
+    [ "barrier-jacket-shield-equipment", "cursix-barrier-jacket-equipment" ],
+    [ "energy-storage-crystal-equipment", "cursix-energy-storage-crystal-equipment" ],
+    [ "sonic-speed-shoes-equipment", "cursix-speed-shoes-equipment" ]
+  ]
+}
