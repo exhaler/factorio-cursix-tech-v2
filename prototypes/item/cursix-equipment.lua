@@ -1,3 +1,5 @@
+local item_sounds = require("__base__.prototypes.item_sounds")
+
 data:extend(
   {
     -- {
@@ -55,10 +57,9 @@ data:extend(
       icon_size = 32,
       placed_as_equipment_result = "cursix-energy-storage-crystal-equipment",
       subgroup = "equipment",
-      order = "c[battery]-b[cursix-energy-storage-crystal-equipment]",
-      stack_size = 500,
-      default_request_amount = 10,
-      weight = 1 * tons,
+      order = "b[battery]-c[cursix-energy-storage-crystal-equipment]",
+      stack_size = 20,
+      weight = 200 * kg
     },
     -- {
     --   type = "item",
