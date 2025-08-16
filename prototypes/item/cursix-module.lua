@@ -60,7 +60,7 @@ data:extend(
       stack_size = 500,
       effect =
       {
-        quality = 1.00,
+        quality = 2.50,
       }
     },
   }
