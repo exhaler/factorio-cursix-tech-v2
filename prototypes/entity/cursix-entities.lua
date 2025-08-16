@@ -6,7 +6,7 @@ data:extend(
       type = "beacon",
       name = "cursix-beacon",
       icon = "__cursix-tech__/graphics/icons/cursix-beacon.png",
-      icon_size = 32,
+      icon_size = 64,
       flags = { "placeable-player", "player-creation" },
       minable = { hardness = 0.2, mining_time = 0.5, result = "cursix-beacon" },
       max_health = 300,
