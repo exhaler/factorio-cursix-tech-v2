@@ -1,9 +1,13 @@
+This is my fork of [Cursix Tech](https://mods.factorio.com/mod/cursix-tech) and added new Quality Mushroom
+
 # Cursix Tech
+
 Simple AI bashing mod for Factorio
 
-Factorio expects mod to be in a folder called cursix-tech_*version* and either placed in the mod directory as is or zipped up using the same naming scheme.
+Factorio expects mod to be in a folder called cursix-tech\__version_ and either placed in the mod directory as is or zipped up using the same naming scheme.
 
 ## Features:
+
 - New Buildings
   - Cursix Beacon
     - 1x1 Beacon that consumes far less power and greater transmission range
@@ -44,9 +48,11 @@ Factorio expects mod to be in a folder called cursix-tech_*version* and either p
     - Increases player's crafting speed.
 
 ## Disclaimers
+
 The graphics/icons/images in this mod were not made by the author and are copyrighted to their respected owners.
 
 ## Credits
+
 - Cursix Beacon
   - Beacon model imported from [Logistic Technology Beacon](https://mods.factorio.com/mod/logtech-beacon) mod.
 - Cursix Power Mushroom, 1-Up Mushroom and Poison Mushroom
