@@ -1,5 +1,3 @@
-local sounds = require '__base__/prototypes/entity/sounds.lua'
-
 data:extend(
   {
     {
@@ -78,20 +76,19 @@ data:extend(
         type = "electric",
         usage_priority = "secondary-input"
       },
-      vehicle_impact_sound = sounds.generic_impact,
-      open_sound = sounds.machine_open,
-      close_sound = sounds.machine_close,
+      open_sound = { filename = "__base__/sound/open-close/beacon-open.ogg", volume = 0.25 },
+      close_sound = { filename = "__base__/sound/open-close/beacon-close.ogg", volume = 0.25 },
       working_sound =
       {
         sound =
         {
           {
             filename = "__base__/sound/beacon-1.ogg",
-            volume = 0.2
+            volume = 0.3
           },
           {
             filename = "__base__/sound/beacon-2.ogg",
-            volume = 0.2
+            volume = 0.3
           }
         },
         audible_distance_modifier = 0.33,
