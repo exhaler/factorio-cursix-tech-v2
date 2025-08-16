@@ -47,6 +47,21 @@ data:extend(
         speed = -0.20,
         pollution = 12.00
       }
-    }
+    },
+    {
+      type = "module",
+      name = "cursix-quality-mushroom",
+      icon = "__cursix-tech__/graphics/icons/cursix-quality-mushroom.png",
+      icon_size = 64,
+      subgroup = "module",
+      category = "quality",
+      tier = 3,
+      order = "g[quality]-a[cursix-quality-mushroom]",
+      stack_size = 500,
+      effect =
+      {
+        quality = 1.00,
+      }
+    },
   }
 )

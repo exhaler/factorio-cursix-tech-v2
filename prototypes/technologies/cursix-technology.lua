@@ -36,6 +36,10 @@ data:extend({
       },
       {
         type = "unlock-recipe",
+        recipe = "cursix-quality-mushroom"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "cursix-poison-mushroom"
       },
       {
