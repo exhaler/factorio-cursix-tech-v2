@@ -20,7 +20,6 @@ data:extend(
       name = "cursix-armor",
       icon = "__cursix-tech__/graphics/icons/cursix-armor.png",
       icon_size = 64,
-      flags = {},
       resistances =
       {
         {
