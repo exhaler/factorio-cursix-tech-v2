@@ -183,14 +183,14 @@ data:extend({
     localised_description = { "technology-description.cursix-technology-2" },
     effects =
     {
-      -- {
-      --   type = "unlock-recipe",
-      --   recipe = "cursix-barrier-jacket-mk2-equipment"
-      -- },
-      -- {
-      --   type = "unlock-recipe",
-      --   recipe = "cursix-akane-eggs-equipment"
-      -- }
+      {
+        type = "unlock-recipe",
+        recipe = "cursix-barrier-jacket-mk2-equipment"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cursix-akane-eggs-equipment"
+      }
     },
     prerequisites = { "cursix-technology", "space-science-pack" },
     unit =
@@ -204,30 +204,30 @@ data:extend({
     },
     order = "a-d-f"
   },
-  -- {
-  --   type = "technology",
-  --   name = "cursix-moogle-roboport-equipment",
-  --   icon_size = 128,
-  --   icon = "__cursix-tech__/graphics/technology/cursix-moogle-roboport-equipment.png",
-  --   effects =
-  --   {
-  --     {
-  --       type = "unlock-recipe",
-  --       recipe = "cursix-moogle-roboport-equipment"
-  --     }
-  --   },
-  --   prerequisites = { "cursix-technology", "personal-roboport-equipment" },
-  --   unit =
-  --   {
-  --     count = 60,
-  --     ingredients =
-  --     {
-  --       { "automation-science-pack", 1 },
-  --       { "logistic-science-pack",   1 },
-  --       { "chemical-science-pack",   1 }
-  --     },
-  --     time = 10
-  --   },
-  --   order = "c-k-d-zzz"
-  -- }
+  {
+    type = "technology",
+    name = "cursix-moogle-roboport-equipment",
+    icon_size = 128,
+    icon = "__cursix-tech__/graphics/technology/cursix-moogle-roboport-equipment.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "cursix-moogle-roboport-equipment"
+      }
+    },
+    prerequisites = { "cursix-technology", "personal-roboport-equipment" },
+    unit =
+    {
+      count = 60,
+      ingredients =
+      {
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack",   1 },
+        { "chemical-science-pack",   1 }
+      },
+      time = 10
+    },
+    order = "c-k-d-zzz"
+  }
 })
