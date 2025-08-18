@@ -7,9 +7,8 @@ data:extend(
       energy_required = 25,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "advanced-circuit",   amount = 5 },
+        { type = "item", name = "electronic-circuit", amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-mushroom", amount = 1 },
@@ -22,9 +21,8 @@ data:extend(
       energy_required = 25,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "advanced-circuit",   amount = 5 },
+        { type = "item", name = "electronic-circuit", amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-1up-mushroom", amount = 1 },
@@ -37,9 +35,8 @@ data:extend(
       energy_required = 25,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "advanced-circuit",   amount = 5 },
+        { type = "item", name = "electronic-circuit", amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-poison-mushroom", amount = 1 },
@@ -52,9 +49,8 @@ data:extend(
       energy_required = 25,
       ingredients =
       {
-        { type = "item", name = "copper-plate", amount = 10 },
-        { type = "item", name = "copper-cable", amount = 50 },
-        { type = "item", name = "wood",         amount = 5 },
+        { type = "item", name = "advanced-circuit",   amount = 5 },
+        { type = "item", name = "electronic-circuit", amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-quality-mushroom", amount = 1 },
