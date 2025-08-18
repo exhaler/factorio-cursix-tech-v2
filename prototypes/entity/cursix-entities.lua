@@ -94,15 +94,16 @@ data:extend(
         audible_distance_modifier = 0.33,
         max_sounds_per_type = 3
       },
-      energy_usage = "50kW",
-      distribution_effectivity = 1.0,
+      energy_usage = "100kW",
+      distribution_effectivity = 1.5,
+      distribution_effectivity_bonus_per_quality_level = 0.2,
       module_slots = 3,
-      module_specification =
-      {
-        module_slots = 3,
-        module_info_icon_shift = { 0, 0 },
-        module_info_multi_row_initial_height_modifier = 1.0,
-        module_info_max_icons_per_row = 2
-      }
+      -- module_specification =
+      -- {
+      --   module_slots = 3,
+      --   module_info_icon_shift = { 0, 0 },
+      --   module_info_multi_row_initial_height_modifier = 1.0,
+      --   module_info_max_icons_per_row = 2
+      -- }
     }
   })
