@@ -13,8 +13,8 @@ data:extend(
       effect =
       {
         speed = 1.00,
-        consumption = -0.20,
-        pollution = -0.20,
+        consumption = -0.70,
+        pollution = -0.70,
       }
     },
     {
