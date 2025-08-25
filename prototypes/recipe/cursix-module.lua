@@ -3,6 +3,7 @@ data:extend(
     {
       type = "recipe",
       name = "cursix-mushroom",
+      category = "electronics",
       enabled = false,
       energy_required = 25,
       ingredients =
@@ -17,6 +18,7 @@ data:extend(
     {
       type = "recipe",
       name = "cursix-1up-mushroom",
+      category = "electronics",
       enabled = false,
       energy_required = 25,
       ingredients =
@@ -31,6 +33,7 @@ data:extend(
     {
       type = "recipe",
       name = "cursix-poison-mushroom",
+      category = "electronics",
       enabled = false,
       energy_required = 25,
       ingredients =
@@ -45,6 +48,7 @@ data:extend(
     {
       type = "recipe",
       name = "cursix-quality-mushroom",
+      category = "electronics",
       enabled = false,
       energy_required = 25,
       ingredients =

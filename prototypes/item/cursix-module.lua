@@ -1,3 +1,5 @@
+local item_sounds = require("__base__.prototypes.item_sounds")
+
 data:extend(
   {
     {
@@ -10,6 +12,9 @@ data:extend(
       tier = 3,
       order = "d[speed]-a[cursix-mushroom]",
       stack_size = 500,
+      inventory_move_sound = item_sounds.module_inventory_move,
+      pick_sound = item_sounds.module_inventory_pickup,
+      drop_sound = item_sounds.module_inventory_move,
       effect =
       {
         speed = 1.00,
@@ -27,6 +32,9 @@ data:extend(
       tier = 3,
       order = "e[productivity]-a[cursix-1up-mushroom]",
       stack_size = 500,
+      inventory_move_sound = item_sounds.module_inventory_move,
+      pick_sound = item_sounds.module_inventory_pickup,
+      drop_sound = item_sounds.module_inventory_move,
       effect =
       {
         productivity = 1.00,
@@ -42,6 +50,9 @@ data:extend(
       tier = 3,
       order = "f[speed]-a[cursix-poison-mushroom]",
       stack_size = 500,
+      inventory_move_sound = item_sounds.module_inventory_move,
+      pick_sound = item_sounds.module_inventory_pickup,
+      drop_sound = item_sounds.module_inventory_move,
       effect =
       {
         speed = -0.20,
