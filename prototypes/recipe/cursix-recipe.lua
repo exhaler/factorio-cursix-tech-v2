@@ -18,6 +18,7 @@ data:extend(
     {
       type = "recipe",
       name = "cursix-beacon",
+      category = "electronics",
       enabled = false,
       energy_required = 10,
       ingredients =
