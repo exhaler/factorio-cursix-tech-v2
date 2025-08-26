@@ -1,11 +1,15 @@
 {
 	"name": "cursix-tech",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"title": "Cursix Tech 2",
 	"author": "Exhaler",
-	"contact": "",
-	"homepage": "",
 	"factorio_version": "2.0",
-	"dependencies": ["base >= 2.0"],
-	"description": "Adds technology that is just insane..."
+	"dependencies": ["base >= 2.0.60", "space-age >= 2.0.60", "quality >= 2.0.60"],
+	"description": "Adds technology that is just insane...",
+	"quality_required": true,
+	"space_travel_required": true,
+	"spoiling_required": true,
+	"freezing_required": true,
+	"segmented_units_required": true,
+	"expansion_shaders_required": true
 }
