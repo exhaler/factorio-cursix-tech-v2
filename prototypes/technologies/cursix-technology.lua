@@ -148,32 +148,87 @@ data:extend({
     type = "technology",
     name = "cursix-worker-robots-battery-3",
     icon_size = 128,
-    icon = "__cursix-tech__/graphics/technology/cursix-worker-robots-battery.png",
+    icons = {
+      {
+        icon = "__base__/graphics/technology/worker-robots-speed.png",
+        icon_size = 256
+      },
+      {
+        icon = "__core__/graphics/icons/technology/constants/constant-battery.png",
+        icon_size = 128,
+        scale = 0.5,
+        shift = { 50, 50 }
+      }
+    },
     effects =
     {
       {
         type = "worker-robot-battery",
-        modifier = 0.25
-      }
+        modifier = 0.50
+      },
     },
     prerequisites = { "cursix-worker-robots-battery-2", "space-science-pack" },
     unit =
     {
-      count_formula = "2^(L-3)*1000",
+      count_formula = "1.5^(L-1)*200",
       ingredients =
       {
-        { "automation-science-pack", 1 },
-        { "logistic-science-pack",   1 },
-        { "chemical-science-pack",   1 },
-        { "production-science-pack", 1 },
-        { "utility-science-pack",    1 },
-        { "space-science-pack",      1 }
+        { "automation-science-pack",      1 },
+        { "logistic-science-pack",        1 },
+        { "chemical-science-pack",        1 },
+        { "production-science-pack",      1 },
+        { "utility-science-pack",         1 },
+        { "space-science-pack",           1 },
+        { "electromagnetic-science-pack", 1 }
       },
-      time = 60
+      time = 30
     },
     max_level = "infinite",
     upgrade = true,
     order = "c-k-g-e"
+  },
+  {
+    type = "technology",
+    name = "cursix-worker-robots-storage-4",
+    icon_mipmaps = 4,
+    icon_size = 256,
+    icons = {
+      {
+        icon = "__base__/graphics/technology/worker-robots-storage.png",
+        icon_size = 256
+      },
+      {
+        icon = "__core__/graphics/icons/technology/constants/constant-capacity.png",
+        icon_size = 128,
+        scale = 0.5,
+        shift = { 50, 50 }
+      }
+    },
+    effects = {
+      {
+        type = "worker-robot-storage",
+        modifier = 5
+      }
+    },
+    prerequisites = { "robotics", "cursix-technology" },
+    unit =
+    {
+      count_formula = "1.5^(L-1)*200",
+      ingredients =
+      {
+        { "automation-science-pack",      1 },
+        { "logistic-science-pack",        1 },
+        { "chemical-science-pack",        1 },
+        { "production-science-pack",      1 },
+        { "utility-science-pack",         1 },
+        { "space-science-pack",           1 },
+        { "electromagnetic-science-pack", 1 }
+      },
+      time = 30
+    },
+    max_level = "infinite",
+    upgrade = true,
+    order = "c-k-g-a",
   },
   {
     type = "technology",
