@@ -53,8 +53,8 @@ data:extend(
       energy_required = 25,
       ingredients =
       {
-        { type = "item", name = "advanced-circuit",   amount = 5 },
-        { type = "item", name = "electronic-circuit", amount = 5 },
+        { type = "item", name = "advanced-circuit", amount = 5 },
+        { type = "item", name = "processing-unit",  amount = 5 },
       },
       results = {
         { type = "item", name = "cursix-quality-mushroom", amount = 1 },
