@@ -9,6 +9,5 @@ for i, force in pairs(game.forces) do
 		force.recipes["cursix-1up-mushroom"].enabled = true
 		force.recipes["cursix-quality-mushroom"].enabled = true
 		force.recipes["cursix-poison-mushroom"].enabled = true
-		force.recipes["cursix-armor"].enabled = true
 	end
 end

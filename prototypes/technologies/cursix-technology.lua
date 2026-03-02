@@ -8,10 +8,6 @@ data:extend({
     {
       {
         type = "unlock-recipe",
-        recipe = "cursix-armor"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "cursix-barrier-jacket-equipment"
       },
       {
