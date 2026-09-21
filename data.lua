@@ -1,4 +1,3 @@
-require("prototypes.cursix-equipment-grid")
 require("prototypes.equipment.cursix-equipment")
 require("prototypes.item.cursix-equipment")
 require("prototypes.item.cursix-module")
