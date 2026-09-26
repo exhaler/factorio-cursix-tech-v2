@@ -1,12 +1,3 @@
--- If Bob's Vehicle Equipment mod is on, Update Cursix Equipment
--- to be compatible with Vehicles
-
-local cursix_equipment_categories = { "armor" }
-
-if mods["bobvehicleequipment"] then
-  cursix_equipment_categories = { "armor", "vehicle" }
-end
-
 data:extend(
   {
     {
@@ -34,7 +25,7 @@ data:extend(
         usage_priority = "primary-input"
       },
       energy_per_shield = "666kJ",
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "energy-shield-equipment",
@@ -61,7 +52,7 @@ data:extend(
         usage_priority = "primary-input"
       },
       energy_per_shield = "1000kJ",
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "battery-equipment",
@@ -87,7 +78,7 @@ data:extend(
         output_flow_limit = "5GW",
         usage_priority = "tertiary"
       },
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "generator-equipment",
@@ -111,7 +102,7 @@ data:extend(
         usage_priority = "primary-output"
       },
       power = "500MW",
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "generator-equipment",
@@ -135,7 +126,7 @@ data:extend(
         usage_priority = "primary-output"
       },
       power = "1GW",
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "movement-bonus-equipment",
@@ -160,7 +151,7 @@ data:extend(
       },
       energy_consumption = "5.5MW",
       movement_bonus = 0.40,
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "active-defense-equipment",
@@ -210,7 +201,7 @@ data:extend(
         }
       },
       automatic = true,
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     },
     {
       type = "roboport-equipment",
@@ -262,7 +253,7 @@ data:extend(
       charging_station_count = 50,
       charging_distance = 1.6,
       charging_threshold_distance = 5,
-      categories = cursix_equipment_categories
+      categories = { "armor" }
     }
   }
 )

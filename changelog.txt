@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 09-26-2026
+  Changes:
+    - Removed Cursix Armor.
+    - Removed Worker Robot Battery / Storage research (and its graphics and locale).
+    - Removed legacy migrations from the original 0.x/1.x mod.
+    - Removed Bob's Vehicle Equipment compatibility check.
+    - Moved equipment into the 2.0 military/utility equipment subgroups.
+    - Added missing inventory sounds to Speed Shoes, Moogle Roboport and Quality Mushroom.
+    - Updated beacon graphics.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 08-15-2025
   Changes:
