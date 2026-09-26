@@ -25,34 +25,19 @@ data:extend(
           {
             filename = "__cursix-tech__/graphics/entity/cursix-beacon.png",
             priority = "extra-high",
-            width = 30,
-            height = 89,
-            shift = util.by_pixel(-2, -39.5),
-            hr_version = {
-              filename = "__cursix-tech__/graphics/entity/hr-cursix-beacon.png",
-              priority = "extra-high",
-              width = 59,
-              height = 178,
-              shift = util.by_pixel(-2.25, -39.5),
-              scale = 0.5,
-            }
+            width = 59,
+            height = 178,
+            scale = 0.5,
+            shift = util.by_pixel(-2.25, -39.5),
           },
           {
             filename = "__cursix-tech__/graphics/entity/cursix-beacon-shadow.png",
             priority = "extra-high",
-            width = 119,
-            height = 25,
-            shift = util.by_pixel(52.5, -2.5),
+            width = 237,
+            height = 50,
+            scale = 0.5,
+            shift = util.by_pixel(52.75, -3),
             draw_as_shadow = true,
-            hr_version = {
-              filename = "__cursix-tech__/graphics/entity/hr-cursix-beacon-shadow.png",
-              priority = "extra-high",
-              width = 237,
-              height = 50,
-              shift = util.by_pixel(52.75, -3),
-              draw_as_shadow = true,
-              scale = 0.5,
-            }
           }
         }
       },
