@@ -8,6 +8,7 @@ Date: 09-26-2026
     - Removed Bob's Vehicle Equipment compatibility check.
     - Moved equipment into the 2.0 military/utility equipment subgroups.
     - Added missing inventory sounds to Speed Shoes, Moogle Roboport and Quality Mushroom.
+    - Buffed Personal Moogle Roboport (200 robots, 100 charging stations, 120 construction radius).
     - Updated beacon graphics.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0

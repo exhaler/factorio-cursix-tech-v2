@@ -229,8 +229,8 @@ data:extend(
       },
       charging_energy = "3MW",
 
-      robot_limit = 100,
-      construction_radius = 60,
+      robot_limit = 200,
+      construction_radius = 120,
       spawn_and_station_height = 0.4,
       spawn_and_station_shadow_height_offset = 0.5,
       charge_approach_distance = 2.6,
@@ -250,7 +250,7 @@ data:extend(
       recharging_light = { intensity = 0.2, size = 3, color = { r = 0.5, g = 0.5, b = 1.0 } },
       stationing_offset = { 0, -0.6 },
       charging_station_shift = { 0, 0.5 },
-      charging_station_count = 50,
+      charging_station_count = 100,
       charging_distance = 1.6,
       charging_threshold_distance = 5,
       categories = { "armor" }
